@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "regression">
+
+<test name = "LoginTest">
+
+
+<parameter name ="userName" value="demo@techfios.com"/>
+<parameter name="password" value="abc123"/>
+<parameter name="dashboardValueText" value="Dashboard"/>
+<parameter name="addContactValidationText" value="Add Contact"/>
+<parameter name="fullName" value="Excel Project"/>
+<parameter name="companyName" value="Techfios"/>
+<parameter name="email" value="msexcel@techfios.com"/>
+<parameter name="phone" value="211546"/>
+<parameter name="address" value="Techfios Building"/>
+<parameter name="city" value="Mckinney"/>
+<parameter name="state" value="Tx"/>
+<parameter name="zip" value="75069"/>
+<parameter name="country" value="United Kingdom"/>
+
+<classes>
+
+<!--  to comment we have to use this -->
+<!-- <class name="test.LoginTest"/> -->
+
+<class name="test.AddCustomerTest"/>
+
+</classes>
+</test>
+</suite>
